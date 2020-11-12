@@ -1,4 +1,4 @@
-const binarySearch = (compare) => {
+function binarySearch(compare) {
   return function search(
     sortedArray = [],
     needle,
